@@ -1,0 +1,96 @@
+// my custom variables
+$color-text-primary: #767676;
+$color-text-heading: #e92569;
+$color-text-nav: #0a0a0a;
+
+$color-background-body: radial-gradient(#ffffff, #e5e5e5);
+$color-background-primary: #efefef;
+$color-background-secondary: #ffffff;
+$color-tertiary: #c7c7c7;
+
+$font-heading: "Playfair Display", sans-serif;
+$font-primary: "Lato", sans-serif;
+
+$medium-width: 768px;
+
+// override bootstrap variables
+$theme-colors: (
+  "primary": $color-background-primary,
+  "light": $color-background-primary,
+);
+
+$border-radius: 5px;
+$body-color: $color-text-primary;
+
+$font-family-base: "Lato", sans-serif;
+$headings-font-family: "Playfair Display", serif;
+$headings-color: $color-text-heading;
+$h1-font-size: 34px;
+
+$form-label-font-size: 20px;
+$form-label-margin-bottom: -0.5px;
+$input-bg: $color-background-secondary;
+$input-border-color: transparent;
+$input-focus-border-color: $color-text-primary;
+$input-padding-y: 0.8rem;
+$form-check-input-width: 1.5em;
+$form-check-input-bg: $color-text-heading;
+$form-check-input-border: none;
+$form-check-input-checked-bg-color: $color-text-primary;
+
+$nav-tabs-link-active-border-color: #d1d1d1;
+
+$nav-link-font-size: 16px;
+$navbar-padding-y: 1rem;
+$navbar-nav-link-padding-x: 1.5rem;
+$navbar-light-hover-color: $color-text-heading;
+$navbar-light-toggler-border-color: transparent;
+$navbar-light-brand-color: $color-text-heading;
+$navbar-light-brand-hover-color: $color-text-primary;
+
+$pagination-padding-y: 0.6rem;
+$pagination-padding-x: 1.2rem;
+$pagination-font-size: 16px;
+$pagination-color: $color-text-heading;
+$pagination-border-radius: 3px;
+$pagination-border-color: $color-text-heading;
+$pagination-focus-color: $color-text-heading;
+$pagination-hover-color: $color-text-heading;
+$pagination-active-bg: $color-text-heading;
+
+$card-spacer-x: 2rem;
+$card-spacer-y: 2rem;
+$card-title-spacer-y: 1rem;
+$card-border-width: 0;
+
+$accordion-border-width: 0;
+$accordion-padding-x: 1.5rem;
+$accordion-button-color: $color-text-heading;
+$accordion-button-active-bg: $color-background-secondary;
+$accordion-button-active-color: $color-text-heading;
+$accordion-button-icon: none;
+$accordion-button-active-icon: none;
+
+$list-group-color: $color-text-primary;
+$list-group-bg: transparent;
+$list-group-border-width: 0;
+
+$carousel-control-color: transparent;
+$carousel-indicator-height: 8px;
+$carousel-indicator-spacer: 7px;
+$carousel-indicator-opacity: 1;
+
+// import bootstrap scss
+@import "~bootstrap/scss/bootstrap";
+
+// import the scss partials
+@import "./partials/layout";
+@import "./partials/typography";
+@import "./partials/nav";
+@import "./partials/carousel";
+@import "./partials/accordion";
+@import "./partials/tabs";
+@import "./partials/card";
+@import "./partials/list";
+@import "./partials/form";
+@import "./partials/footer";

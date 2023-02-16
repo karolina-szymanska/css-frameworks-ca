@@ -1,0 +1,20 @@
+h1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  
+    @media (min-width: $medium-width) {
+      margin-top: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+  
+  .pagination-1 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .pagination-2 {
+    @media (max-width: $medium-width) {
+      margin-bottom: 3rem;
+    }
+  }

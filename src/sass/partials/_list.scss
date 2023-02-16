@@ -1,0 +1,27 @@
+.list-group-container {
+    margin-top: 1.5rem;
+  
+    @media (min-width: $medium-width) {
+      margin-left: 2rem;
+      margin-top: 1rem;
+    }
+  }
+  
+  .list-group-item {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 1rem;
+  
+    > i {
+      margin-top: 1rem;
+      margin-right: 2rem;
+  
+      @media (min-width: $medium-width) {
+        font-size: x-large;
+      }
+    }
+  
+    p {
+      margin-bottom: 0.3rem;
+    }
+  }

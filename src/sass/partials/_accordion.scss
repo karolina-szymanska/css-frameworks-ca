@@ -1,0 +1,29 @@
+.accordion {
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+  }
+  
+  .accordion-body {
+    background: $color-background-body;
+  }
+  
+  .accordion-body > img {
+    max-width: 100%;
+  }
+  
+  .accordion-button {
+    font-family: $font-family-base;
+    font-size: 19px;
+  }
+  
+  .accordion-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-text-nav;
+  
+    > div,
+    > i {
+      padding: 1rem 0.4rem;
+    }
+  }

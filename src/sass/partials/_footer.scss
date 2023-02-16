@@ -1,0 +1,47 @@
+footer {
+    flex-shrink: 0;
+    background-color: $color-background-secondary;
+    color: $color-text-primary;
+    font-size: 16px;
+    padding: 3rem 0 7rem 0;
+  
+    @media (min-width: $medium-width) {
+      padding: 0.8rem 0;
+      margin-top: 7rem;
+    }
+  }
+  
+  .center {
+    align-items: center;
+  }
+  
+  .footer-media {
+    display: flex;
+    justify-content: center;
+  
+    @media (max-width: $medium-width) {
+      margin-bottom: 3rem;
+    }
+  
+    @media (min-width: $medium-width) {
+      justify-content: flex-start;
+    }
+  
+    .fa-brands {
+      padding: 0 1rem 0 0;
+    }
+  }
+  
+  .footer-text {
+    display: flex;
+    justify-content: space-between;
+  
+    @media (min-width: $medium-width) {
+      align-items: center;
+    }
+  
+    a {
+      color: $color-text-primary;
+      text-decoration: none;
+    }
+  }
